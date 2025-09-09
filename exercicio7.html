@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+        /* Estilo personalizado */
+        body {
+            background-color: rgb(68, 83, 13);
+            color: aqua;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-top: 60px;
+        }
+
+        /* Exemplo: mudar TODOS os <p> */
+        p {
+            background-color: black;
+            color: brown;
+            padding: 5px;
+        }
+
+        /* Exemplo: classe para label */
+        .label-custom {
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="text-center">Hello, world!</h1>
+
+    <!-- Bordas do Bootstrap -->
+    <div class="border border-start border-danger p-2">alerta</div>
+
+    <!-- Texto colorido -->
+    <p class="text-danger">assim sim!</p>
+
+    <!-- Fundo primário -->
+    <div class="border bg-primary text-white p-2">agora mudou</div>
+
+    <!-- Texto com borda -->
+    <div class="border-start border-danger text-danger p-2">alo mundo</div>
+
+    <!-- Botão Bootstrap -->
+    <button class="btn btn-primary mt-3">Teste Bootstrap</button>
+
+    <hr>
+
+    <!-- Lista -->
+    <ul>
+      <li>o que tem na lista</li>
+      <li>já está formatado</li>
+    </ul>
+
+    <!-- Botão com borda vermelha -->
+    <button class="btn btn-primary border   --bs-secondary-color-rgb: 33, 37, 41;
+">oiiiii</button>
+
+    <hr>
+
+    <!-- Tabela correta -->
+    <table class="table table-bordered table-dark mt-3">
+      <thead>
+        <tr>
+          <th>Coluna 1</th>
+          <th>Coluna 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Valor A</td>
+          <td>Valor B</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Texto normal -->
+    <div class="h5">gostou</div>
+
+    <hr>
+
+    <!-- Label e label customizada -->
+    <label>Para de graça</label>
+    <div class="label-custom">E agora mudou ✅</div>
+
+  </body>
+</html>
